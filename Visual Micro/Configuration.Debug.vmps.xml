@@ -1,0 +1,8 @@
+<VisualMicro>
+  <Program Name="tresor" Ext=".ino" Location="C:\Users\Alexander Hofmann\Documents\Arduino\myprojects\tresor\tresor">
+    <Compile IsCompiled="0" CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Alexander Hofmann\AppData\Local\VMicro\Arduino\Builds\tresor\nano328" />
+    <Platform Name="Arduino">
+      <Board CoreFolder="C:\Users\Alexander Hofmann\Documents\Arduino\arduino-1.3\hardware\arduino\cores\arduino" Name="nano328" Description="Arduino Nano w/ ATmega328" VariantFullPath="C:\Users\Alexander Hofmann\Documents\Arduino\arduino-1.3\hardware\arduino\variants\eightanaloginputs" bootloader.extended_fuses="0x05" bootloader.file="ATmegaBOOT_168_atmega328.hex" bootloader.high_fuses="0xDA" bootloader.lock_bits="0x0F" bootloader.low_fuses="0xFF" bootloader.path="atmega" bootloader.unlock_bits="0x3F" build.core="arduino" build.f_cpu="16000000L" build.mcu="atmega328p" build.variant="eightanaloginputs" build.variant.vmresolved="C:\Users\Alexander Hofmann\Documents\Arduino\arduino-1.3\hardware\arduino\variants\eightanaloginputs" name="Arduino Nano w/ ATmega328" upload.maximum_size="30720" upload.protocol="arduino" upload.speed="57600" />
+    </Platform>
+  </Program>
+</VisualMicro>
