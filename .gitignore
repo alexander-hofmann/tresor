@@ -11,3 +11,14 @@
 *.lai
 *.la
 *.a
+
+/ipch
+/Visual Micro
+/tresor.opensdf
+/tresor.sdf
+/tresor.sln
+/tresor.suo
+/tresor.vcxproj
+/tresor.vcxproj.filters
+/tresor.vcxproj.user
+/README.md

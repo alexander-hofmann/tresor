@@ -21,10 +21,10 @@ phi_matrix_keypads panel_keypad(mapping, pins, buttons_per_row, buttons_per_colu
 
 #define MAX_CODE_INDEX 255
 
-char code[255] = "1234\0";
-char recovery_code[255] = "1234567890\0";
-char ecode[255] = "\0";
-char ecode1[255] = "\0";
+String code = "1234\0";
+String recovery_code = "1234567890\0";
+String ecode = "\0";
+String ecode1 = "\0";
 char temp = NO_KEY;
 int ecode_index = 0;
 boolean code_ok = false;
@@ -57,15 +57,21 @@ void setup()
 
 void read_code() {
 	int i=0;
+	char c = 0;
+	code = "";
 	do {
-		code[i] = EEPROM.read(i);
+		c = EEPROM.read(i);
+		code = code + c;
 		i++;
-	} while(code[i] != '\0');
+	} while(c != '\0');
+
+	recovery_code = "";
 	i=255;
 	do {
-		recovery_code[i] = EEPROM.read(i);
+		c = EEPROM.read(i);
+		recovery_code = recovery_code + c;
 		i++;
-	} while(recovery_code[i] != '\0');
+	} while(recovery_code != '\0');
 }
 
 void write_code() {

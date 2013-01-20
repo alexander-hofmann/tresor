@@ -52,4 +52,4 @@ void print_mode();
 
 #include "C:\Users\Alexander Hofmann\Documents\Arduino\arduino-1.3\hardware\arduino\variants\eightanaloginputs\pins_arduino.h" 
 #include "C:\Users\Alexander Hofmann\Documents\Arduino\arduino-1.3\hardware\arduino\cores\arduino\arduino.h"
-#include "C:\Users\Alexander Hofmann\Documents\Arduino\myprojects\tresor\tresor\tresor.ino"
+#include "C:\Users\Alexander Hofmann\Documents\Arduino\myprojects\tresor\tresor.ino"
